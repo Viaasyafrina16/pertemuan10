@@ -93,13 +93,13 @@ int main() {
             }
             break;
         case 3:
-       
-       
-       
-       
-       
-       
-       
+            if (!stack.isEmpty()) {
+                stack.peek(); // Get the value of the top element
+            }
+            else {
+                cout << "Stack is empty. No top value." << endl;
+            }
+            break;
         case 4:
             cout << "Exiting program." << endl;
             break;
@@ -109,14 +109,9 @@ int main() {
         }
 
         cout << endl;
-        
-
-
-
-        
-
     }
 
+    return 0;
 }
     
 
